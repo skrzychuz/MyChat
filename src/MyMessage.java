@@ -1,4 +1,6 @@
-public class MyMessage {
+import java.io.Serializable;
+
+public class MyMessage implements Serializable {
     int id;
     String text;
 
